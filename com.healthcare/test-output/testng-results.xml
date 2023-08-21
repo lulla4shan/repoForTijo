@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-21T22:27:50 IST" name="CrossBrowserTestSuite" finished-at="2023-08-21T22:28:53 IST" duration-ms="63598">
+    <groups>
+    </groups>
+    <test started-at="2023-08-21T22:27:50 IST" name="ChromeTest" finished-at="2023-08-21T22:28:53 IST" duration-ms="63598">
+      <class name="executePageClasses.ActiveVisitTestClass">
+        <test-method is-config="true" signature="createExtendReport(org.testng.ITestContext)[pri:0, instance:executePageClasses.ActiveVisitTestClass@1941a8ff]" started-at="2023-08-21T22:27:50 IST" name="createExtendReport" finished-at="2023-08-21T22:27:50 IST" duration-ms="38" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@696f0212]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtendReport -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executePageClasses.ActiveVisitTestClass@1941a8ff]" started-at="2023-08-21T22:27:51 IST" name="beforeMethod" finished-at="2023-08-21T22:27:58 IST" duration-ms="7382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyThePatientIsNotDisplayedInActiveVisitsWhenVisitNotStarted(java.lang.String,java.lang.String)[pri:0, instance:executePageClasses.ActiveVisitTestClass@1941a8ff]" started-at="2023-08-21T22:27:58 IST" name="verifyThePatientIsNotDisplayedInActiveVisitsWhenVisitNotStarted" data-provider="login" finished-at="2023-08-21T22:28:19 IST" duration-ms="20456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThePatientIsNotDisplayedInActiveVisitsWhenVisitNotStarted -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executePageClasses.ActiveVisitTestClass@1941a8ff]" started-at="2023-08-21T22:28:19 IST" name="afterMethod" finished-at="2023-08-21T22:28:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThePatientIsNotDisplayedInActiveVisitsWhenVisitNotStarted status=SUCCESS method=ActiveVisitTestClass.verifyThePatientIsNotDisplayedInActiveVisitsWhenVisitNotStarted(java.lang.String,java.lang.String)[pri:0, instance:executePageClasses.ActiveVisitTestClass@1941a8ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:executePageClasses.ActiveVisitTestClass@1941a8ff]" started-at="2023-08-21T22:28:19 IST" name="beforeMethod" finished-at="2023-08-21T22:28:26 IST" duration-ms="6542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyThePatientIsInActiveVisitsWhenVisitStarts(java.lang.String,java.lang.String)[pri:1, instance:executePageClasses.ActiveVisitTestClass@1941a8ff]" started-at="2023-08-21T22:28:26 IST" name="verifyThePatientIsInActiveVisitsWhenVisitStarts" data-provider="login" finished-at="2023-08-21T22:28:53 IST" duration-ms="27871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThePatientIsInActiveVisitsWhenVisitStarts -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:executePageClasses.ActiveVisitTestClass@1941a8ff]" started-at="2023-08-21T22:28:53 IST" name="afterMethod" finished-at="2023-08-21T22:28:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThePatientIsInActiveVisitsWhenVisitStarts status=SUCCESS method=ActiveVisitTestClass.verifyThePatientIsInActiveVisitsWhenVisitStarts(java.lang.String,java.lang.String)[pri:1, instance:executePageClasses.ActiveVisitTestClass@1941a8ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- executePageClasses.ActiveVisitTestClass -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- CrossBrowserTestSuite -->
+</testng-results>

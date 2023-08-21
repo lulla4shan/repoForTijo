@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [CrossBrowserTestSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="extendReport.TestListener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="executePageClasses.ActiveVisitTestClass">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifyThePatientIsInActiveVisitsWhenVisitStarts" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="createExtendReport"/>
+        </methods>
+      </class> <!-- executePageClasses.ActiveVisitTestClass -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [CrossBrowserTestSuite] -->
