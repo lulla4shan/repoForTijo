@@ -10,28 +10,23 @@
 		<!-- Thread count is used to know how may thread used at a time -->
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
-<class name="executePageClasses.ActiveVisitTestClass"/>
-			
-
-			<!-- <class name="executePageClasses.RegisterAPatientTestClass"/>
-      
-      <class name="executePageClasses.LoginPageTestClass"/>
-      <class name="executePageClasses.HomePageTestClass"/> -->
+			<class name="executePageClasses.RegisterAPatientTestClass" />
+			<class name="executePageClasses.ActiveVisitTestClass" />
+			<class name="executePageClasses.LoginPageTestClass" />
+			<class name="executePageClasses.HomePageTestClass" />
 		</classes>
 	</test> <!-- Test -->
 
-	<!-- <test thread-count="5" name="EdgeTest"> -->
+	<test thread-count="5" name="EdgeTest">
 		<!-- Thread count is used to know how may thread used at a time -->
-		<!-- <parameter name="browser" value="chrome"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
 		<classes>
-			<class name="executePageClasses.FindAPatientTestClass" />
-
-			 <class name="executePageClasses.RegisterAPatientTestClass"/>
-      <class name="executePageClasses.ActiveVisitTestClass"/>
-      <class name="executePageClasses.LoginPageTestClass"/>
-      <class name="executePageClasses.HomePageTestClass"/> -->
-	<!--	</classes> -->
-<!--	</test>  -->
+			<class name="executePageClasses.RegisterAPatientTestClass" />
+			<class name="executePageClasses.ActiveVisitTestClass" />
+			<class name="executePageClasses.LoginPageTestClass" />
+			<class name="executePageClasses.HomePageTestClass" />
+		</classes>
+	</test>
 
 
 </suite> <!-- Suite -->
